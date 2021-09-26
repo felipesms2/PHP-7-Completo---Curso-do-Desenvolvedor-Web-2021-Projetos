@@ -20,7 +20,7 @@
                     <h3>Módulo 01 - Básico</h3>
                     <ul>
                         <li>
-                            <a href="#">
+                            <a href="exercicio.php">
                                 Exercício A
                             </a>
                         </li>
