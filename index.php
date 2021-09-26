@@ -16,7 +16,7 @@
     <main class="principal">
         <div class="conteudo">
             <nav class="modulos">
-                <div class="modulo">
+                <div class="modulo verde">
                     <h3>Módulo 01 - Básico</h3>
                     <ul>
                         <li>
