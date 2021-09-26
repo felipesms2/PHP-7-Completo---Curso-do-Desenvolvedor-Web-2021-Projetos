@@ -200,7 +200,7 @@
         </div>
     </main>
     <footer class="rodape">
-        Curso PHP
+        Curso PHP <?php echo date("Y")?>
     </footer>
 </body>
 </html>
