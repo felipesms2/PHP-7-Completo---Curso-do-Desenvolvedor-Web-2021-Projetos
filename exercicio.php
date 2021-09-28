@@ -23,7 +23,12 @@
 
     <main class="principal">
         <div class="conteudo">
-            <?php include "teste.php"; ?>
+            <?php
+            $dir =$_GET['dir'];
+            $filename = $_GET['file'];
+            $fullpath = $dir . "/" . $filename . ".php";
+            //die($fullpath);
+            include ($fullpath) ?>
         </div>
     </main>
     <footer class="rodape">
