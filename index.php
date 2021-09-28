@@ -26,7 +26,7 @@
                         </li>
                         <li>
                             <a href="exercicio.php?dir=basico&file=html">
-                                Exercício B
+                                Exercício B 
                             </a>
                         </li>
                         <li>
