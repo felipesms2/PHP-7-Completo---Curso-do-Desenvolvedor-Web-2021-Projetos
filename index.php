@@ -26,7 +26,12 @@
                         </li>
                         <li>
                             <a href="exercicio.php?dir=basico&file=html">
-                                Exercício B 
+                                HTML 
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=basico&file=css">
+                                CSS 
                             </a>
                         </li>
                         <li>
