@@ -35,8 +35,8 @@
                             </a>
                         </li>
                         <li>
-                            <a href="#">
-                                Exercício C
+                            <a href="exercicio.php?dir=basico&file=comentarios">
+                                Comentários
                             </a>
                         </li>                        
                     </ul>
