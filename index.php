@@ -51,7 +51,7 @@
                     <h3>Tipos</h3>
                     <ul>
                         <li>
-                            <a href="exercicio.php?dir=tipos&file=ola">
+                            <a href="exercicio.php?dir=tipos&file=int">
                                 Tipo Inteiro
                             </a>
                         </li>                      
