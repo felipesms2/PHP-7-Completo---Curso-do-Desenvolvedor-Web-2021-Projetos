@@ -60,6 +60,11 @@
                                 Tipo Float
                             </a>
                         </li>                      
+                        <li>
+                            <a href="exercicio.php?dir=tipos&file=aritimeticas">
+                                Operações aritiméticas
+                            </a>
+                        </li>                      
                     </ul>
                 </div>
                             
