@@ -62,7 +62,7 @@
                         </li>                      
                         <li>
                             <a href="exercicio.php?dir=tipos&file=aritimeticas">
-                                Operações aritiméticas
+                                Op aritiméticas
                             </a>
                         </li>                      
                     </ul>
