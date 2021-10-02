@@ -13,5 +13,10 @@
     echo 7%4 . "<br>";
     echo 7%2 . "<br>";
     echo 8%2 . "<br>";
-    ;
+    echo 7/0;
+
+    echo "<p>Precedência</p>";
+    echo 2+3*4 . "<br>";
+    echo (2+3)*4 . "<br>" 
+
 ?>
