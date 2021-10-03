@@ -44,6 +44,12 @@
                                 Desafio
                             </a>
                         </li>                        
+                        <li>
+                            <a href="exercicio.php?dir=basico&file=desafio_precedencia">
+                                Desafio
+                                
+                            </a>
+                        </li>                        
                     </ul>
                 </div>
 
