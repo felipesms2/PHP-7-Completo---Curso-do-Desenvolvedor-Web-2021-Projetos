@@ -21,7 +21,16 @@
     echo "<p>Operações String</p>";
     var_dump(3 + "2");
     echo "<br>";
-    echo is_string("3" . 2);
+    echo is_string("3" . 2) . "<br>";
+    var_dump(1 + "5 Five");
+    echo "<br>";
+    var_dump(1 + "-3.2e2");
+    echo "<br>";
+    var_dump((float) "10.5");
+    echo "<br>";
+    echo (float) "10.1111";
+
+
 
 
 ?>
