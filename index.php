@@ -44,12 +44,6 @@
                                 Desafio
                             </a>
                         </li>                        
-                        <li>
-                            <a href="exercicio.php?dir=basico&file=desafio_precedencia">
-                                Desafio
-                                
-                            </a>
-                        </li>                        
                     </ul>
                 </div>
 
@@ -70,7 +64,17 @@
                             <a href="exercicio.php?dir=tipos&file=aritimeticas">
                                 Op aritiméticas
                             </a>
-                        </li>                      
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=tipos&file=desafio_precedencia">
+                                Desafio Precedencia
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=tipos&file=string">
+				Tipo String        	
+                            </a>
+                        </li>
                     </ul>
                 </div>
                             
