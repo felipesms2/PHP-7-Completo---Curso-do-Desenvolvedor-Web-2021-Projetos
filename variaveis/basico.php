@@ -22,5 +22,20 @@
     $variavel = "Agora sou uma string";
     echo "<br> $variavel";
 
+    //Var Names
+
+    $var = "valid";
+    $var2 = "valid";
+    $VAR3 = "valid";
+    $_var = "valid";
+    $_v4ar = "valid";
+    //starting with number or % is invalid
+    //End with  % is invalid
+    //Dash case is invalid
+
+echo "<br>";
+
+echo "<pre>", var_dump($_SERVER), "</pre>";
+
 
 ?>
