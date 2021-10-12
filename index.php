@@ -121,7 +121,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="exercicio.php?dir=variaveis&file=desavio_variaveis">
+                        <a href="exercicio.php?dir=variaveis&file=desafio_variaveis">
                             Desafio Variaveis
                         </a>
                     </li>
