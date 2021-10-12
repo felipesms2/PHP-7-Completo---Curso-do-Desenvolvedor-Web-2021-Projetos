@@ -110,6 +110,11 @@
                             Atribuições
                         </a>
                     </li>
+                    <li>
+                        <a href="exercicio.php?dir=variaveis&file=interpolacoes">
+                            Interpolações
+                        </a>
+                    </li>
                 </ul>
             </div>                            
             </nav>
