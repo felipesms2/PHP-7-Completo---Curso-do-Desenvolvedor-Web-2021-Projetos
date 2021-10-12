@@ -95,9 +95,14 @@
             <div class="modulo azul">
                 <h3>Básico</h3>
                 <ul>
-                    <li>
+                <li>
                         <a href="exercicio.php?dir=variaveis&file=basico">
                             Variáveis
+                        </a>
+                    </li>
+                    <li>
+                        <a href="exercicio.php?dir=variaveis&file=desafio_equacao">
+                            Desafio Equação
                         </a>
                     </li>
                 </ul>
