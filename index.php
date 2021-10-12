@@ -120,6 +120,11 @@
                             Variaveis Variaveis
                         </a>
                     </li>
+                    <li>
+                        <a href="exercicio.php?dir=variaveis&file=desavio_variaveis">
+                            Desafio Variaveis
+                        </a>
+                    </li>
                 </ul>
             </div>                            
             </nav>
