@@ -111,7 +111,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="exercicio.php?dir=variaveis&file=interpolacoes">
+                        <a href="exercicio.php?dir=variaveis&file=interpolacao">
                             Interpolações
                         </a>
                     </li>
