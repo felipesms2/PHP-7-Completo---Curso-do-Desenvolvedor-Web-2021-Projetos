@@ -6,5 +6,5 @@
                 echo "Serei impresso?";
                 echo "Serei impresso novamente?";
             }
-            
+      
     ?>
