@@ -26,7 +26,7 @@
                         </li>
                         <li>
                             <a href="exercicio.php?dir=controle&file=operadores_relacionais">
-                                Operadores Relacionais
+                                Op. Relacionais
                             </a>
                         </li>
                     </ul>
