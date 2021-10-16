@@ -1,17 +1,10 @@
 <div class="titulo">
-    Operadores Lógicos
+   Desafio Operadores Lógicos
 </div>
 
-<style>
 
-.boldP
-    {
-        font-weight: bold;
-    }
+    <?php
+        include("customClass.php");
+        $display = new excercise();  
 
-</style>
-<?php
-    include("customClass.php");
-    $display = new excercise();  
-
-?>
+    ?> 
