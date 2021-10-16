@@ -61,5 +61,25 @@
 
     echo "<p>";
     
+    $sex = "m";
+    $age = 12;
+    $WorkedYears = 60;
+    $minAge = 45;
+    $minWork = 30;
+    
+    if ($sex == "m" AND $age >= $minAge AND $WorkedYears >= $minWork) 
+        {
+            echo "<p>
+            Critérios suficientes para aposentadoria
+            </p>";
+        }
+    else
+        {
+            echo "<p>
+                Rever os critérios
+            </p>";
+        }
+
+    
 
 ?>
