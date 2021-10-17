@@ -54,6 +54,11 @@
                                 Switch Case
                             </a>
                         </li>
+                        <li>
+                            <a href="exercicio.php?dir=controle&file=desafio_switch">
+                                Desafio Switch
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div class="modulo azul">
@@ -180,8 +185,10 @@
         </div>
     </main>
     <footer class="rodape">
-        Curso PHP <?php echo date("Y")?>
+        Curso PHP <?php echo date("Y"); ?><p></p>
+        <input style="" size="50"  value="git commit -m 'description' <?=$_SERVER['PHP_SELF']?>" />
     </footer>
+    
 </body>
 </html>
 
