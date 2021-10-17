@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curso PHP</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <?php
+        include("./commonJS.php");
+    ?>
 
 </head>
 <body>
@@ -185,10 +188,21 @@
         </div>
     </main>
     <footer class="rodape">
-        Curso PHP <?php echo date("Y"); ?><p></p>
-        <input style="" size="50"  value="git commit -m 'description' <?php echo "." . $_SERVER['PHP_SELF']?>" />
+        Curso PHP <?php echo date("Y"); ?><p>
+            
+        <input 
+            size="60"  
+            value=""
+            id = "commitMsg"
+         />
+         <input type="text" id ="fileName" value="<?php echo "." . $_SERVER['PHP_SELF']?>" />
+         <!-- <button onclick="clipBoard('toGit')">Copiar</button> -->
+         <button onclick="clipBoard()">Copiar</button>
+            
+        </p>
     </footer>
     
 </body>
+
 </html>
 
