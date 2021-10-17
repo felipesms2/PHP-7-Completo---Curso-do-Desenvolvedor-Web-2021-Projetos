@@ -185,7 +185,9 @@
                     </ul>
                 </div>
             </nav>
+            
         </div>
+
     </main>
     <footer class="rodape">
         Curso PHP <?php echo date("Y"); ?><p>
@@ -195,11 +197,27 @@
             value=""
             id = "commitMsg"
          />
-         <input type="text" id ="fileName" value="<?php echo "." . $_SERVER['PHP_SELF']?>" />
+         <input 
+            disabled 
+            readonly 
+            id ="fileName"
+            type="hidden"
+            value="<?php echo "." . $_SERVER['PHP_SELF']?>" />
          <!-- <button onclick="clipBoard('toGit')">Copiar</button> -->
          <button onclick="clipBoard()">Copiar</button>
+         <button onclick="closePopUp()" class="close">Fechar terminal</button>
             
         </p>
+
+          <!--Creates the popup content-->
+            <div class="popup-content">
+                <!-- <button>Fechar</button> -->
+                <!-- <h2>Pop-Up</h2> -->
+                <!-- <p> This is an example pop-up that you can make using jQuery.</p> -->
+                    <div id='popuContent'></div>
+                 </div>
+            </div>
+
     </footer>
     
 </body>
