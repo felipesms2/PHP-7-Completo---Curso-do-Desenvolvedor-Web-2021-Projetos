@@ -186,7 +186,7 @@
     </main>
     <footer class="rodape">
         Curso PHP <?php echo date("Y"); ?><p></p>
-        <input style="" size="50"  value="git commit -m 'description' <?=$_SERVER['PHP_SELF']?>" />
+        <input style="" size="50"  value="git commit -m 'description' <?php echo "." . $_SERVER['PHP_SELF']?>" />
     </footer>
     
 </body>
