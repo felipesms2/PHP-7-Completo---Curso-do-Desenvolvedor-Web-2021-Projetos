@@ -79,7 +79,7 @@
                         </li>
                         <li>
                             <a href="exercicio.php?dir=variaveis&file=atribuicoes">
-                                Atribuições
+                                Atribuições 
                             </a>
                         </li>
                         <li>
