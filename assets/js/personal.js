@@ -7,6 +7,8 @@ function clipBoard()
     if(commitMsg=="")
       {
           alert("Descrição do commit é obrigatória");
+          //document.getElementById("filename").focus();
+          $("#commitMsg").focus();
           return false;
       }
     else
