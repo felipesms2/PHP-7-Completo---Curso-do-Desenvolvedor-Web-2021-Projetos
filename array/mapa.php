@@ -5,13 +5,18 @@
             $display = new excercise();
             
             $list = array(1,3,5,'Random text');
-            $dados =array("Cor"=>"Azul",
-            "Idade"=>"40",
-            "Altura"=>"160",
-            "Peso"=>"70.10"
+            $dataArr =array("color"=>"blue",
+            "age"=>"40",
+            "height"=>"160",
+            "wheight"=>"70.10"
         );
 
-            $display->dumpAndBroke($dados);
+            $display->dumpAndBroke($dataArr);
+            
+            $display->displayAndBroke($dataArr["age"]);
+            $display->displayAndBroke($dataArr["height"]);
+            $display->displayAndBroke($dataArr["wheight"]);
+            $display->displayAndBroke($dataArr["color"]);
 
             //$display->displayAndBroke($status);
             //$display->dumpAndBroke($status);
