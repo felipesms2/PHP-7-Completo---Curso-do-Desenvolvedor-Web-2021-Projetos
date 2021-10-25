@@ -6,7 +6,6 @@
             $display = new excercise();
             //$display->displayAndBroke($status);
             //$display->dumpAndBroke($status);
-
             $listData = array(
                 1,
                 4 =>  2,
