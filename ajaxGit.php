@@ -1,6 +1,6 @@
 <?php
 include ("./commonCss.php");
-$cmd = "git status";
+$cmd = "pwd";
 if (isset($_GET['cmd'])) 
     {
         $cmd = $_GET['cmd'];
@@ -9,6 +9,7 @@ if (isset($_GET['cmd']))
 function gitExec($cmd)
 	   {
 	     echo shell_exec($cmd);
+	     echo shell_exec("pwd");
 	   }
 ?>
 

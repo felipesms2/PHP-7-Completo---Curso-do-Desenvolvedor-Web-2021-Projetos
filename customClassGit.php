@@ -4,17 +4,25 @@ class gitRules
 {
     public $gitFile = "";
     public $commitMain = false;
+    public $documentRoot = "";
     public $folder;
     public $file;
 
-    public function setFileName($subdir="")
+    public function setFileName()
     {
-        $root = ".";
+        
         if ($this->commitMain==false) 
         {
-            $root = "./" . $this->folder . "/" . $this->file . "" . "php";
+           $finalFileCommit =
+            //"." . 
+            //$this->documentRoot . "/" . 
+            $this->folder . 
+            "/" . 
+            $this->file . 
+            "." . 
+            "php";
         }
-        return $root . $this->gitFile;
+        return $finalFileCommit;
     }
 }
 

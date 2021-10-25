@@ -13,13 +13,14 @@
     error_reporting(E_ALL);
         include("./customClassGit.php");
         include("./commonJS.php");
-
-        $dir = $_GET['dir'];
+        $dir =$_GET['dir'];
+        $filename = $_GET['file'];
         $gitRules = new gitRules();
-        $gitRules->gitFile = $_SERVER['PHP_SELF'];
-        $subdir['folder'] = $dir;
-        $subdir['file'] = $dir;
-        $gitRules->setFileName($subdir);
+        $gitRules->documentRoot = $_SERVER['DOCUMENT_ROOT'];
+        $gitRules->folder = $dir;
+        $gitRules->file = $filename;
+        
+        
     ?>
 </head>
 <body class="exercicio">
@@ -37,8 +38,6 @@
     <main class="principal">
         <div class="conteudo">
             <?php
-            $dir =$_GET['dir'];
-            $filename = $_GET['file'];
             $fullpath = $dir . "/" . $filename . ".php";
             include ($fullpath);
             ?>

@@ -8,7 +8,7 @@
             readonly 
             id ="fileName"
             type="text"
-            value="<?php echo "." . __DIR__ . $_SERVER['PHP_SELF']?>" />
+            value="<?php echo $gitRules->setFileName();?>" />
          <!-- <button onclick="clipBoard('toGit')">Copiar</button> -->
          <button onclick="clipBoard()">Copiar</button>
          <button onclick="closePopUp()" class="close">Fechar terminal</button>
