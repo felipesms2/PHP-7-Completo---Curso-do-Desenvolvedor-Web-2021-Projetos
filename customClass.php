@@ -12,6 +12,10 @@
                 {
                     echo var_dump($param) . $this->htmlTag;
                 }
+            public function dupmAndPre($param)
+                {
+                    echo "<pre>" , var_dump($param) , $this->htmlTag;
+                }
         }
 
 
