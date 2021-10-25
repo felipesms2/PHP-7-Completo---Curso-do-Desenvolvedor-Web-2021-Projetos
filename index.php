@@ -20,6 +20,17 @@
     <main class="principal">
     <div class="conteudo">
             <nav class="modulos">
+                <div class="modulo laranja">
+                    <h3>5. Arrays</h3>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=array&file=basico">
+                                Basico
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="modulo azul">
                 <div class="modulo roxo">
                     <h3>4. Controle</h3>
                     <ul>
