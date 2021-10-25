@@ -30,7 +30,6 @@
                         </li>
                     </ul>
                 </div>
-                <div class="modulo azul">
                 <div class="modulo roxo">
                     <h3>4. Controle</h3>
                     <ul>
