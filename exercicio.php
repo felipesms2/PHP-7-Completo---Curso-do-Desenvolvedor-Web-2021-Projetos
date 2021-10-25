@@ -12,11 +12,12 @@
     ini_set('display_startup_errors', 1);
     error_reporting(E_ALL);
         include("./customClassGit.php");
-         $gitRules = new gitRules();
-        // $gitRules->gitFile = $_SERVER['PHP_SELF'];
-        // $subdir['folder'] = $dir;
-        // $subdir['file'] = $dir;
-        // $filename->setFileName($subdir);
+        $dir = $_GET['dir'];
+        $gitRules = new gitRules();
+        $gitRules->gitFile = $_SERVER['PHP_SELF'];
+        $subdir['folder'] = $dir;
+        $subdir['file'] = $dir;
+        $gitRules->setFileName($subdir);
     ?>
 </head>
 <body class="exercicio">
@@ -44,7 +45,7 @@
     <footer class="rodape">
         Curso PHP <?php echo date("Y")?>
         <?php
-           // include("./viewCustom/gitForm.php");
+            include("./viewCustom/gitForm.php");
         ?>   
     </footer>
 </body>
