@@ -3,8 +3,7 @@
     </div>
         <?php
 
-           //    die("filename");
-            
+            include("customClass.php");            
             $display = new excercise();
 
             //echo "<pre>", var_dump($_SERVER);
