@@ -14,10 +14,10 @@
 <form action="#" method="post">
     <input type="text" name="valConvert">
     <select name="conversion" id="conversion">
-        <option value="km-milha">Km > Milha</option>
-        <option value="milha-km">Milha > Km</option>
-        <option value="metro-km">Metros > Km</option>
-        <option value="km-metro">Km > Metros</option>
+        <option value="kmMile">Km > Milha</option>
+        <option value="mileKm">Milha > Km</option>
+         <option value="meterKm">Metros > Km</option>
+        <option value="kmMeter">Km > Metros</option>
         <option value="cel-fah">Celsius > Fahrenheit</option>
         <option value="fah-cel">Fahrenheit > Celsius</option>
     </select>
@@ -35,19 +35,19 @@
         {
             switch ($_POST['conversion']) 
             {
-            case 'km-milha':
+            case 'kmMile':
                 $distance = $valConvert * KM_MILE;
                 $message = "$valConvert Km(s) = $distance Milha(s)";
                 break;
-            case 'milha-km':
+            case 'mileKm':
                 $distance = $valConvert / KM_MILE;
                 $message = "$valConvert Milha(s) = $distance Km(s)";
                 break;
-            case 'metro-km':
+            case 'meterKm':
                 $distance = $valConvert / METER_KM;
                 $message = "$valConvert Metro(s) = $distance Km(s)";
                 break;
-            case 'km-metro':
+            case 'kmMeter':
                 $distance = $valConvert * METER_KM;
                 $message = "$valConvert Km(s) = $distance Metro(s)";
                 break;
