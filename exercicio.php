@@ -12,9 +12,8 @@
     ini_set('display_startup_errors', 1);
     error_reporting(E_ALL);
         include("./customClassGit.php");
-        include("./commonCss.php");
         include("./commonJS.php");
-        
+
         $dir = $_GET['dir'];
         $gitRules = new gitRules();
         $gitRules->gitFile = $_SERVER['PHP_SELF'];
