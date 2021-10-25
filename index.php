@@ -9,6 +9,7 @@
     <?php
         include("./commonJS.php");
         include("./customClass.php");
+        include("./customClassGit.php");
     ?>
 
 </head>
@@ -36,6 +37,11 @@
                         <li>
                             <a href="exercicio.php?dir=array&file=desafio_index">
                                 Desafio Index
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=array&file=desafio_meses">
+                                Desafio Meses
                             </a>
                         </li>
                     </ul>
@@ -216,10 +222,8 @@
         <br>
         <?php
             $gitRules = new gitRules();
-            $gitRules->gitFile = $_SERVER['PHP_SELF'];
             $gitRules->commitMain = true;
             $filename = $gitRules->setFileName();
-            die($filename);
             include("./viewCustom/gitForm.php");
         ?>
     </footer>
