@@ -9,7 +9,7 @@ if (isset($_GET['cmd']))
 function gitExec($cmd)
 	   {
 	     echo shell_exec($cmd);
-	     echo shell_exec("pwd");
+	     echo shell_exec("git push");
 	   }
 ?>
 
