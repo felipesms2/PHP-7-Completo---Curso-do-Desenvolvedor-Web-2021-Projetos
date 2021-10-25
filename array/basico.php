@@ -18,10 +18,11 @@
       $texto = "Aqui está um texto de teste com acentuação";
       $textoUTF8 = utf8_decode($texto);
 
-      $display->displayAndBroke(utf8_encode($textoUTF8));
+      $display->dumpAndBroke(utf8_encode($textoUTF8));
       $display->dumpAndBroke($texto);
 
-      $display->displayAndBroke($texto[10]);
+      $display->displayAndBroke($texto[11]);
+      $display->displayAndBroke($textoUTF8[11]);
 
       echo "</p>";
 
