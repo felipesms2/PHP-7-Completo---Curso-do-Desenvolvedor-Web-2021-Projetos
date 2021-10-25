@@ -13,7 +13,7 @@
 
 <form action="#" method="post">
     <input type="text" name="valConvert">
-    <select name="conversao" id="conversao">
+    <select name="conversion" id="conversion">
         <option value="km-milha">Km > Milha</option>
         <option value="milha-km">Milha > Km</option>
         <option value="metro-km">Metros > Km</option>
@@ -24,44 +24,39 @@
     <button>Calcular</button>
 </form>
 
-<style>
-    form > * {
-        font-size: 1.8rem;
-    }
-</style>
 
 <?php
-    define("FATOR_KM_MILHA", 0.621371);
-    define("FATOR_METRO_KM", 1000);
-    define("FATOR_CEL_FAH", 1.8);
+    define("KM_MILE", 0.621371);
+    define("METER_KM", 1000);
+    define("CEL_FA", 1.8);
 
     $valConvert = $_POST['valConvert'] ?? 0;
-    if(isset($_POST["conversao"]))
+    if(isset($_POST["conversion"]))
         {
-            switch ($_POST['conversao']) 
+            switch ($_POST['conversion']) 
             {
             case 'km-milha':
-                $distancia = $valConvert * FATOR_KM_MILHA;
-                $mensagem = "$valConvert Km(s) = $distancia Milha(s)";
+                $distance = $valConvert * KM_MILE;
+                $message = "$valConvert Km(s) = $distance Milha(s)";
                 break;
             case 'milha-km':
-                $distancia = $valConvert / FATOR_KM_MILHA;
-                $mensagem = "$valConvert Milha(s) = $distancia Km(s)";
+                $distance = $valConvert / KM_MILE;
+                $message = "$valConvert Milha(s) = $distance Km(s)";
                 break;
             case 'metro-km':
-                $distancia = $valConvert / FATOR_METRO_KM;
-                $mensagem = "$valConvert Metro(s) = $distancia Km(s)";
+                $distance = $valConvert / METER_KM;
+                $message = "$valConvert Metro(s) = $distance Km(s)";
                 break;
             case 'km-metro':
-                $distancia = $valConvert * FATOR_METRO_KM;
-                $mensagem = "$valConvert Km(s) = $distancia Metro(s)";
+                $distance = $valConvert * METER_KM;
+                $message = "$valConvert Km(s) = $distance Metro(s)";
                 break;
             default:
-                $mensagem = "Nenhum valor calculado!";
+                $message = "Nenhum valor calculado!";
         }
         }
   
-if (isset($mensagem)) 
+if (isset($message)) 
  {
-    echo "<p>$mensagem</p>";
+    echo "<p>$message</p>";
  }
