@@ -28,14 +28,13 @@
                                 Basico
                             </a>
                         </li>
-                    </ul>
-                    <ul>
                         <li>
                             <a href="exercicio.php?dir=array&file=mapa">
                                 Mapa
                             </a>
                         </li>
                     </ul>
+
                 </div>
                 <div class="modulo roxo">
                     <h3>4. Controle</h3>
