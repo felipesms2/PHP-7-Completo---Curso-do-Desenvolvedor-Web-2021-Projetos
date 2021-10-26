@@ -44,6 +44,11 @@
                                 Desafio Meses
                             </a>
                         </li>
+                        <li>
+                            <a href="exercicio.php?dir=array&file=operacoes">
+                                Operações com array
+                            </a>
+                        </li>
                     </ul>
 
                 </div>
