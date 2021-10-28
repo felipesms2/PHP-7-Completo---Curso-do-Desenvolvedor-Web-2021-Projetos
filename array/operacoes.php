@@ -38,9 +38,7 @@
             $even = [2,4,6,8];
             $decimal = $odd + $even;
             $display->dumpAndBroke($decimal);
-            
             $decimal = array_merge($odd, $even);
-
             $display->dumpAndBroke($decimal);
 
         ?> 
