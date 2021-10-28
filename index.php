@@ -54,6 +54,12 @@
                                 Desafio Sorteio
                             </a>
                         </li>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=array&file=multimensionais">
+                                Multidimensionais
+                            </a>
+                        </li>
                     </ul>
 
                 </div>
