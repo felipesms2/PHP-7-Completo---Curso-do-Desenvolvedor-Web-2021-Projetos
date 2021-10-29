@@ -21,6 +21,16 @@
     <main class="principal">
     <div class="conteudo">
             <nav class="modulos">
+                <div class="modulo verde">
+                    <h3>Repetição</h3>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=loops&file=for">
+                                Laço For
+                            </a>
+                        </li>
+                    </ul>
+                </div>
                 <div class="modulo laranja">
                     <h3>5. Arrays</h3>
                     <ul>
