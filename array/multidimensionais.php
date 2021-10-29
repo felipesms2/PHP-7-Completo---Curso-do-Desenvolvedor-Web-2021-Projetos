@@ -18,7 +18,6 @@
                 ]
         ] ;
 
-        $display->dumpAndBroke($people)
-
+        $display->dumpAndBroke($people);
 
         ?> 
