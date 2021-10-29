@@ -70,6 +70,11 @@
                                 Using Get
                             </a>
                         </li>
+                        <li>
+                            <a href="exercicio.php?dir=array&file=metodo_post">
+                                Using Post
+                            </a>
+                        </li>
                     </ul>
 
                 </div>
