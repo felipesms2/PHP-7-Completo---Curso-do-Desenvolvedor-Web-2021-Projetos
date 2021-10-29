@@ -6,5 +6,6 @@
             $display = new excercise();
             //$display->displayAndBroke($status);
             //$display->dumpAndBroke($status);
-            const FRUTS = ['RaspBerry', 'Carrot'];
+            const FRUITS = ['RaspBerry', 'Carrot'];
+            $display->dumpAndBroke(FRUITS[1]);
         ?> 
