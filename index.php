@@ -65,6 +65,11 @@
                                 Array Constante
                             </a>
                         </li>
+                        <li>
+                            <a href="exercicio.php?dir=array&file=metodo_get">
+                                Using Get
+                            </a>
+                        </li>
                     </ul>
 
                 </div>
