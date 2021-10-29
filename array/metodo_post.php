@@ -6,9 +6,7 @@
             $display = new excercise(); 
             //$display->displayAndBroke($status);
             //$display->dumpAndBroke($status);
-
         ?> 
-
     <form action="#" method="post">
         Name <input type="text"> <br>
         Age <input type="number"> <br>
