@@ -26,7 +26,7 @@ function clipBoard()
         $("#popuContent").load("./ajaxGit.php?cmd=" +  encodeURI(gitCommand));
         $(".popup, .popup-content").addClass("active");
 
-        alert(gitCommand);
+        //alert(gitCommand);
       }
 
     //alert(id);
