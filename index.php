@@ -60,6 +60,11 @@
                                 Multidimensionais
                             </a>
                         </li>
+                        <li>
+                            <a href="exercicio.php?dir=array&file=array_constant">
+                                Array Constante
+                            </a>
+                        </li>
                     </ul>
 
                 </div>
