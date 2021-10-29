@@ -6,4 +6,5 @@
             $display = new excercise();
             //$display->displayAndBroke($status);
             //$display->dumpAndBroke($status);
+            $display->dupmAndPre($_GET);
         ?> 
