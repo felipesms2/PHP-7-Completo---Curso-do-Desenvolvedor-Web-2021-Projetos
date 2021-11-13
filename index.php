@@ -29,6 +29,11 @@
                                 Laço For
                             </a>
                         </li>
+                        <li>
+                            <a href="exercicio.php?dir=loops&file=challenge_for">
+                                Desafio For
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div class="modulo laranja">
