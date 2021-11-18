@@ -39,6 +39,11 @@
                                 Break Continue
                             </a>
                         </li>
+                        <li>
+                            <a href="exercicio.php?dir=loops&file=break-continue">
+                                Desafio Impressão
+                            </a>
+                        </li>
                 </div>
                 <div class="modulo laranja">
                     <h3>5. Arrays</h3>
