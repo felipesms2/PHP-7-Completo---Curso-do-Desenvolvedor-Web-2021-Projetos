@@ -35,11 +35,10 @@
                             </a>
                         </li>
                         <li>
-                            <a href="exercicio.php?dir=loops&file=foreach">
-                                Foreach
+                            <a href="exercicio.php?dir=loops&file=break-continue">
+                                Break Continue
                             </a>
                         </li>
-                    </ul>
                 </div>
                 <div class="modulo laranja">
                     <h3>5. Arrays</h3>
