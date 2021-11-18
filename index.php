@@ -40,8 +40,13 @@
                             </a>
                         </li>
                         <li>
-                            <a href="exercicio.php?dir=loops&file=break-continue">
+                            <a href="exercicio.php?dir=loops&file=print-challenge">
                                 Desafio Impressão
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=loops&file=while">
+                                While e do While
                             </a>
                         </li>
                 </div>
