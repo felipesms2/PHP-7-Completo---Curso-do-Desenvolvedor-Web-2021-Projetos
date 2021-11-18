@@ -34,6 +34,11 @@
                                 Desafio For
                             </a>
                         </li>
+                        <li>
+                            <a href="exercicio.php?dir=loops&file=foreach">
+                                Foreach
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div class="modulo laranja">
