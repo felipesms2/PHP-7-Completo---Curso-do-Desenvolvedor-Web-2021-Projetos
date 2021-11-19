@@ -21,6 +21,14 @@
     <main class="principal">
     <div class="conteudo">
             <nav class="modulos">
+                <div class="modulo vermelho">
+                    <h3>Funções</h3>
+                    <ul>
+                        <li>
+                        <a href="exercicio.php?dir=functions&file=getting-start">
+                        </li>
+                    </ul>
+                </div>
                 <div class="modulo verde">
                     <h3>Repetição</h3>
                     <ul>
