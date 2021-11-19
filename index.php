@@ -49,6 +49,11 @@
                                 While e do While
                             </a>
                         </li>
+                        <li>
+                            <a href="exercicio.php?dir=loops&file=challenge-table">
+                                Desafio Tabela
+                            </a>
+                        </li>
                 </div>
                 <div class="modulo laranja">
                     <h3>5. Arrays</h3>
