@@ -25,7 +25,14 @@
                     <h3>Funções</h3>
                     <ul>
                         <li>
-                        <a href="exercicio.php?dir=functions&file=getting-start">
+                            <a href="exercicio.php?dir=functions&file=getting-start">
+                                Escopo
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=functions&file=argt-return">
+                                Argumento e Retorno
+                            </a>
                         </li>
                     </ul>
                 </div>
