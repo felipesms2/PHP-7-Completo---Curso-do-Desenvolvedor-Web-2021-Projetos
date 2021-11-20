@@ -30,8 +30,13 @@
                             </a>
                         </li>
                         <li>
-                            <a href="exercicio.php?dir=functions&file=argt-return">
+                            <a href="exercicio.php?dir=functions&file=arg-return">
                                 Argumento e Retorno
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=functions&file=arg-variable">
+                                Argumentos Variáveis
                             </a>
                         </li>
                     </ul>

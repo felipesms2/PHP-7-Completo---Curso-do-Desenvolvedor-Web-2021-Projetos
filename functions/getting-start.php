@@ -18,7 +18,7 @@
             $display->displayAndBroke("Previous value is $toChange");
             ToChange($display);
 
-           $display->displayAndBroke("Actualli toChange is $toChange");
+           $display->displayAndBroke("Actually toChange is $toChange");
     
             function staticChange()
                 {
@@ -27,6 +27,6 @@
                 }
 
             staticChange();
-            $display->displayAndBroke("toChange is changed to $toChange");
+            $display->displayAndBroke("toChange is changed to $toChange ");
 
         ?> 
