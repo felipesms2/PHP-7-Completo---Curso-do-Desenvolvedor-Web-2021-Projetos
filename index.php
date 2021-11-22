@@ -39,6 +39,11 @@
                                 Argumentos Variáveis
                             </a>
                         </li>
+                        <li>
+                            <a href="exercicio.php?dir=functions&file=default-arguments">
+                                Argumento Padrão
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div class="modulo verde">
