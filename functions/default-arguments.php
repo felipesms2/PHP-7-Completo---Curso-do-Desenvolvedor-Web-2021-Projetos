@@ -20,6 +20,5 @@
       
             echo helloCustomer();
             echo helloCustomer("Felipe");
-      
         
         ?> 
