@@ -18,6 +18,11 @@
                 }
         }
 
+    class chapters
+        {
+           public $topic = array("chapters" => array()); 
+        }
+
 
 
 ?>
