@@ -44,6 +44,16 @@
                                 Argumento Padrão
                             </a>
                         </li>
+                        <li>
+                            <a href="exercicio.php?dir=functions&file=data-type">
+                                Declarando Tipos
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=functions&file=anon-functions">
+                                Funções Anonimas
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div class="modulo verde">
