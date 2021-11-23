@@ -15,5 +15,6 @@ include("customClass.php");
                 return 2*2;
             };
 
-            echo $anonFunc();
+            $display->displayAndBroke($anonFunc());
+            $display->dumpAndBroke($anonFunc);
         ?> 
