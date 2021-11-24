@@ -60,7 +60,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="exercicio.php?dir=functions&file=recursive.php">
+                            <a href="exercicio.php?dir=functions&file=recursive">
                                 Recursive Functions
                             </a>
                         </li>
