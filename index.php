@@ -59,6 +59,11 @@
                                 Closures e Callables
                             </a>
                         </li>
+                        <li>
+                            <a href="exercicio.php?dir=functions&file=recursive.php">
+                                Recursive Functions
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div class="modulo verde">
