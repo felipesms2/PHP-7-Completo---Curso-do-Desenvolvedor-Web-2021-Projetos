@@ -69,6 +69,11 @@
                                 Retornando Functions
                             </a>
                         </li>
+                        <li>
+                            <a href="exercicio.php?dir=functions&file=map-filter">
+                                Map e Filter
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div class="modulo verde">
