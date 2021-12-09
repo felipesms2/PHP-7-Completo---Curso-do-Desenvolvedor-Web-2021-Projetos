@@ -37,6 +37,11 @@
                                 Desafio Data
                             </a>
                         </li>
+                        <li>
+                            <a href="exercicio.php?dir=objects&file=challenge-date">
+                                Construtor e Destrutor
+                            </a>
+                        </li>
                         </ul>
                     </div>
                 </div>
