@@ -31,6 +31,13 @@
                             </a>
                         </li>
                         </ul>
+                        <ul>
+                        <li>
+                            <a href="exercicio.php?dir=objects&file=challenge-date">
+                                Desafio Data
+                            </a>
+                        </li>
+                        </ul>
                     </div>
                 </div>
                 <div class="modulo vermelho">
