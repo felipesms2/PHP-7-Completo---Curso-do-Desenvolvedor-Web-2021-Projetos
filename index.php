@@ -38,7 +38,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="exercicio.php?dir=objects&file=challenge-date">
+                            <a href="exercicio.php?dir=objects&file=construct-destruct">
                                 Construtor e Destrutor
                             </a>
                         </li>
