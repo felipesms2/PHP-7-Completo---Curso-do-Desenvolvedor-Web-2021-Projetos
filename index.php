@@ -21,6 +21,18 @@
     <main class="principal">
     <div class="conteudo">
             <nav class="modulos">
+                <div class="modulos">
+                    <div class="modulo verde">
+                        <h3>Objetos</h3>
+                        <ul>
+                        <li>
+                            <a href="exercicio.php?dir=objects&file=fisrt-class">
+                                Primeira Classe
+                            </a>
+                        </li>
+                        </ul>
+                    </div>
+                </div>
                 <div class="modulo vermelho">
                     <h3>Funções</h3>
                     <ul>
