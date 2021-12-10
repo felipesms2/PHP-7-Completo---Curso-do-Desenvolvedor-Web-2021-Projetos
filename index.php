@@ -42,6 +42,11 @@
                                 Construtor e Destrutor
                             </a>
                         </li>
+                        <li>
+                            <a href="exercicio.php?dir=objects&file=inheritance">
+                                Herança
+                            </a>
+                        </li>
                         </ul>
                     </div>
                 </div>
