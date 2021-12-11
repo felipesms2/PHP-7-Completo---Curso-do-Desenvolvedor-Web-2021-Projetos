@@ -52,6 +52,11 @@
                                 Modificadores de Acesso
                             </a>
                         </li>
+                        <li>
+                            <a href="exercicio.php?dir=objects&file=static-members">
+                                Membros Estáticos
+                            </a>
+                        </li>
                         </ul>
                     </div>
                 </div>
