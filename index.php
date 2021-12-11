@@ -47,6 +47,11 @@
                                 Herança
                             </a>
                         </li>
+                        <li>
+                            <a href="exercicio.php?dir=objects&file=access-modifiers">
+                                Modificadores de Acesso
+                            </a>
+                        </li>
                         </ul>
                     </div>
                 </div>
