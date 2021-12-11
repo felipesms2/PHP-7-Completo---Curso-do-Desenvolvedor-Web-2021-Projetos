@@ -6,5 +6,10 @@
             $display = new excercise();
             //$display->displayAndBroke($status);
             //$display->dumpAndBroke($status);
+
+            class A
+                {
+                    
+                }
             
         ?> 
