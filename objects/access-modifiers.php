@@ -7,4 +7,10 @@
             //$display->displayAndBroke($status);
             //$display->dumpAndBroke($status);
             
-        ?> 
+        class A 
+        {
+            public $public = "Públic";
+            public $protected =  "Protected";
+            public $private = "Private";
+        }
+        
