@@ -9,7 +9,13 @@
 
             class A
                 {
-                    
+                    public $nonStatic = "Atrib non static";
+                    public static $staticAtrib = "Atrib static";
                 }
+
+            $classA = new A;
+
+            $display->displayAndBroke(A::$staticAtrib);
+            $display->displayAndBroke($classA::$staticAtrib);
             
         ?> 
