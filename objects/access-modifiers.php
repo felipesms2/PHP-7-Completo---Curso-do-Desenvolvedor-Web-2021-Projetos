@@ -12,5 +12,6 @@
             public $public = "Públic";
             public $protected =  "Protected";
             public $private = "Private";
+            
         }
         
