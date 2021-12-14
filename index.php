@@ -62,6 +62,11 @@
                                 Interface
                             </a>
                         </li>
+                        <li>
+                            <a href="exercicio.php?dir=objects&file=abstract">
+                                Classe Abstrata
+                            </a>
+                        </li>
                         </ul>
                     </div>
                 </div>
