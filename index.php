@@ -63,6 +63,11 @@
                             </a>
                         </li>
                         <li>
+                            <a href="exercicio.php?dir=objects&file=final-modifiers">
+                                Modificador Final
+                            </a>
+                        </li>
+                        <li>
                             <a href="exercicio.php?dir=objects&file=abstract">
                                 Classe Abstrata
                             </a>
