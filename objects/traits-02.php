@@ -21,7 +21,7 @@ include("customClass.php");
             {
                 public function validateString($str)
                 {
-                    return isset($str) && $str !=="";
+                    return isset($str) && trim($str);
                 }
             }
         class UserRoles
@@ -29,7 +29,10 @@ include("customClass.php");
             use strValidation, betterValidation
                 {
                     betterValidation::validateString insteadOf strValidation;
+                    strValidation::validateString as simple;
                 }
         }
         
-        
+        $user = new UserRoles();
+        $display->dumpAndBroke(($user->validateString(" ")));
+        $display->dumpAndBroke(($user->simple(" ")));
