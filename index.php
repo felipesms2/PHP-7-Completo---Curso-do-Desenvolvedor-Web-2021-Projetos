@@ -82,6 +82,11 @@
                                 Traits 02
                             </a>
                         </li>
+                        <li>
+                            <a href="exercicio.php?dir=objects&file=magic-methods">
+                                Métodos Mágicos
+                            </a>
+                        </li>
                         </ul>
                     </div>
                 </div>
