@@ -77,6 +77,11 @@
                                 Traits 01
                             </a>
                         </li>
+                        <li>
+                            <a href="exercicio.php?dir=objects&file=traits-02">
+                                Traits 02
+                            </a>
+                        </li>
                         </ul>
                     </div>
                 </div>
