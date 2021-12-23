@@ -72,6 +72,11 @@
                                 Classe Abstrata
                             </a>
                         </li>
+                        <li>
+                            <a href="exercicio.php?dir=objects&file=traits-01">
+                                Traits 01
+                            </a>
+                        </li>
                         </ul>
                     </div>
                 </div>
