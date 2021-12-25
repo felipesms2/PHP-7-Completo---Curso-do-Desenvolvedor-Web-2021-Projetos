@@ -87,6 +87,11 @@
                                 Métodos Mágicos
                             </a>
                         </li>
+                        <li>
+                            <a href="exercicio.php?dir=objects&file=polymorphism">
+                                Polimorfismo
+                            </a>
+                        </li>
                         </ul>
                     </div>
                 </div>
