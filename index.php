@@ -29,6 +29,9 @@
                             <a href="exercicio.php?dir=includes&file=include">
                                 Include
                             </a>
+                            <a href="exercicio.php?dir=includes&file=include">
+                                Include com função
+                            </a>
                         </li>
                         </ul>
                     </div>
