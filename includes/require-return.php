@@ -13,5 +13,5 @@
             $display->displayAndBroke(__DIR__);
             $display->displayAndBroke($returnedValue2);
             $display->displayAndBroke($justDeclared);
-            
+         
         ?> 
