@@ -29,8 +29,15 @@
                             <a href="exercicio.php?dir=includes&file=include">
                                 Include
                             </a>
-                            <a href="exercicio.php?dir=includes&file=include">
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=includes&file=include-function">
                                 Include com função
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=includes&file=require-return">
+                                Require & Return
                             </a>
                         </li>
                         </ul>
