@@ -22,6 +22,16 @@
     <div class="conteudo">
             <nav class="modulos">
                 <div class="modulos">
+                    <div class="modulo roxo-escuro">
+                        <h3>Includes</h3>
+                        <ul>
+                        <li>
+                            <a href="exercicio.php?dir=includes&file=include">
+                                
+                            </a>
+                        </li>
+                        </ul>
+                    </div>
                     <div class="modulo verde">
                         <h3>Objetos</h3>
                         <ul>
