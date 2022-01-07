@@ -40,6 +40,11 @@
                                 Require & Return
                             </a>
                         </li>
+                        <li>
+                            <a href="exercicio.php?dir=includes&file=include-once">
+                                Include Once
+                            </a>
+                        </li>
                         </ul>
                     </div>
                     <div class="modulo verde">
