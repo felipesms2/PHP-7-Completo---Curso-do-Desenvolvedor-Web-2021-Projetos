@@ -26,7 +26,7 @@
                         <h3>Namespace</h3>
                         <ul>
                             <li>
-                                <a href="exercicio.php?dir=namespace&file=start">
+                                <a href="exercicio.php?dir=namespace&file=namespace-basic">
                                     Básico
                                 </a>
                             </li>
