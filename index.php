@@ -22,6 +22,16 @@
     <div class="conteudo">
             <nav class="modulos">
                 <div class="modulos">
+                    <div class="modulo azul-escuro">
+                        <h3>Namespace</h3>
+                        <ul>
+                            <li>
+                                <a href="exercicio.php?dir=namespace&file=start">
+                                    Básico
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                     <div class="modulo roxo-escuro">
                         <h3>Includes</h3>
                         <ul>
