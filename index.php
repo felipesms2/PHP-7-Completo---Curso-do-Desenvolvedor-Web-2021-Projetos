@@ -35,6 +35,11 @@
                                     Sub Namespace
                                 </a>
                             </li>
+                            <li>
+                                <a href="exercicio.php?dir=namespace&file=use-alias">
+                                    Use / AS
+                                </a>
+                            </li>
                         </ul>
                     </div>
                     <div class="modulo roxo-escuro">
