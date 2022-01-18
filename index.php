@@ -27,7 +27,7 @@
                         <ul>
                             <li>
                                 <a href="exercicio.php?dir=errorHandler&file=try-catch">
-                                    Básico
+                                    Try Catch
                                 </a>
                             </li>
                         </ul>
