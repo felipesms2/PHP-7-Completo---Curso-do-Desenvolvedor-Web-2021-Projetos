@@ -22,6 +22,16 @@
     <div class="conteudo">
             <nav class="modulos">
                 <div class="modulos">
+                    <div class="modulo laranja">
+                        <h3>Error Handler</h3>
+                        <ul>
+                            <li>
+                                <a href="exercicio.php?dir=errorHandler&file=try-catch">
+                                    Básico
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                     <div class="modulo azul-escuro">
                         <h3>Namespace</h3>
                         <ul>
