@@ -30,6 +30,11 @@
                                     Try Catch
                                 </a>
                             </li>
+                            <li>
+                                <a href="exercicio.php?dir=errorHandler&file=custom_errors">
+                                    Erros Personalizados
+                                </a>
+                            </li>
                         </ul>
                     </div>
                     <div class="modulo azul-escuro">
