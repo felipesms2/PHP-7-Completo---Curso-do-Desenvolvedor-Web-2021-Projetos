@@ -7,9 +7,6 @@
             //$display->displayAndBroke($status);
             //$display->dumpAndBroke($status);
 
-
-
-            
         try
             {
                 echo intdiv(7,0);
