@@ -35,6 +35,11 @@
                                     Erros Personalizados
                                 </a>
                             </li>
+                            <li>
+                                <a href="exercicio.php?dir=errorHandler&file=error-handler">
+                                    Error Handler
+                                </a>
+                            </li>
                         </ul>
                     </div>
                     <div class="modulo azul-escuro">
