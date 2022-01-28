@@ -29,7 +29,8 @@
                         <ul>
                             <li>
                                 <a 
-                                    href="exercicio.php?dir=session-cookies&file=">
+                                    href="exercicio.php?dir=session-cookies&file=session-basic">
+                                    Sessão
                                 </a>
                             </li>
                         </ul>
