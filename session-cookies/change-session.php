@@ -19,6 +19,6 @@ $_SESSION['name'] = "Souza";
 
 <br>
 
-<a href="">
+<a href="session-destroy.php">
     Encerrar Sessão
 </a>
