@@ -18,7 +18,7 @@
 
         ?>
 
-    <a href="somefile.php">
+    <a href="./session-cookies/change-session.php">
         Change Session
     </a>
         
