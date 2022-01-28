@@ -22,6 +22,18 @@
     <div class="conteudo">
             <nav class="modulos">
                 <div class="modulos">
+                    <div class="modulo vermelho">
+                        <h3>
+                            Session & Cookies
+                        </h3>
+                        <ul>
+                            <li>
+                                <a 
+                                    href="exercicio.php?dir=session-cookies&file=">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                     <div class="modulo laranja">
                         <h3>Error Handler</h3>
                         <ul>

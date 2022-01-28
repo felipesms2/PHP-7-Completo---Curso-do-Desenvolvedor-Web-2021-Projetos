@@ -21,8 +21,7 @@
             function retireTimeCalculate($age) {
                 if($age < 18) 
                 {
-                    throw new AgeRetireException(
-                        'Too young');
+                    throw new AgeRetireException('Too young');
                 }
             
                 if($age > 70) 
@@ -49,4 +48,4 @@
                 }
             }
             
-            echo "Fim!";
+            
