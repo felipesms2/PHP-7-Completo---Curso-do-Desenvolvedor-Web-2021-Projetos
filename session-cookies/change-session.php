@@ -16,3 +16,9 @@ $_SESSION['name'] = "Souza";
 <br>
 
 <strong>Name:</strong> <?=$_SESSION['name']?>
+
+<br>
+
+<a href="">
+    Encerrar Sessão
+</a>
