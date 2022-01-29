@@ -33,6 +33,12 @@
                                     Sessão
                                 </a>
                             </li>
+                            <li>
+                                <a 
+                                    href="exercicio.php?dir=session-cookies&file=managing-session">
+                                    Gerenciando Sessões
+                                </a>
+                            </li>
                         </ul>
                     </div>
                     <div class="modulo laranja">
