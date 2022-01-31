@@ -22,6 +22,16 @@
     <div class="conteudo">
             <nav class="modulos">
                 <div class="modulos">
+                    <div class="modulo azul">
+                        <h3>Projetos</h3>
+                            <ul>
+                                <li>
+                                    <a href="projects/" target="_blank">
+                                        Login, BD, InOut
+                                    </a>
+                                </li>
+                            </ul>
+                    </div>
                     <div class="modulo vermelho">
                         <h3>
                             Session & Cookies
