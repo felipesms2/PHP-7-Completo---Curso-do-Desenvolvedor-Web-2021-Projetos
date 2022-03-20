@@ -34,9 +34,13 @@
 					</li>
 
 					<li class="sidebar-item active">
-						<a class="sidebar-link" href="index.html">
-              <i class="align-middle" data-feather="lock"></i> <span class="align-middle">Projeto Login</span>
-            </a>
+						<a  data-target="#register" data-toggle="collapse" class="sidebar-link collapsed">
+              				<i class="align-middle" data-feather="lock"></i> <span class="align-middle">Projeto Login</span>
+            			</a>
+						<ul id="ui" class="sidebar-dropdown list-unstyled collapse " data-parent="#sidebar">
+							<li class="sidebar-item"><a class="sidebar-link" href="main_page.php?&page_display=crud_orders">Gestão de OS</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="main_page.php?&page_display=atpve_generator">Formulário ATPV-E</a></li>
+						</ul>
 					</li>
 
 					<li class="sidebar-item">

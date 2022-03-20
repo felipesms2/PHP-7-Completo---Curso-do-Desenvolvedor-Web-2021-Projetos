@@ -15,9 +15,7 @@ function clipBoard()
       {
         gitCommand = "git commit -m '" + commitMsg + "' " + fileName ;
         var dummy = document.createElement("input");
-        //dummy.style.display = 'none';
         document.body.appendChild(dummy);
-    
         dummy.setAttribute("id", "dummy_id");
         document.getElementById("dummy_id").value=gitCommand;
         dummy.select();
