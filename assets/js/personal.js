@@ -41,3 +41,9 @@ function closePopUp()
     $("#popuContent").html("");
     $(".popup, .popup-content").removeClass("active"); 
   }
+
+
+function loadTopics() 
+  {
+    console.log(chapter);
+  }
