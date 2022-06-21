@@ -1,19 +1,19 @@
 <?php
 
-$arquivo = fopen('teste.txt', 'w');
-fwrite($arquivo, "Valor inicial\n");
-$str = "Segunda linha\n";
-fwrite($arquivo, $str);
-fclose($arquivo);
+$fileJob = fopen('fileTest.txt', 'w');
+fwrite($fileJob, "Start Value\n");
+$str = "Second Line\n";
+fwrite($fileJob, $str);
+fclose($fileJob);
 
-$arquivo = fopen('teste.txt', 'w');
-fwrite($arquivo, "Novo conteúdo");
-fclose($arquivo);
+$fileJob = fopen('./fileTest.txt', 'w');
+fwrite($fileJob, "New Content");
+fclose($fileJob);
 
-$arquivo = fopen('teste.txt', 'a');
-fwrite($arquivo, " com novos valores\n");
-fwrite($arquivo, "Adicionados em um segundo momento");
-fclose($arquivo);
+$fileJob = fopen('fileTest.txt', 'a');
+fwrite($fileJob, " with new values\n");
+fwrite($fileJob, "Added afeter create");
+fclose($fileJob);
 
 ini_set('display_errors', 1);
-$arquivo = fopen('teste.txt', 'x');
+$fileJob = fopen('fileTest.txt', 'x');
