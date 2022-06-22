@@ -12,7 +12,7 @@ fclose($fileJob);
 
 $fileJob = fopen('fileTest.txt', 'a');
 fwrite($fileJob, " with new values\n");
-fwrite($fileJob, "Added afeter create");
+fwrite($fileJob, "Added afetr create");
 fclose($fileJob);
 
 ini_set('display_errors', 1);
