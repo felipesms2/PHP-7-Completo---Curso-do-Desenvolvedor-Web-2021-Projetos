@@ -15,3 +15,4 @@ console.log(Pname, age);
 const {Paddress: {street}} = people
 
 console.log(street);
+
