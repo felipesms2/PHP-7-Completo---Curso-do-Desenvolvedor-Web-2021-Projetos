@@ -16,3 +16,4 @@ const {Paddress: {street}} = people
 
 console.log(street);
 
+
