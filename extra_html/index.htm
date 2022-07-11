@@ -7,9 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <script>
-        document.querySelectorAll('a').forEach(link => {} )
-    </script>
+
     <header>
         <h1>Html Pratice</h1>
         <nav>
@@ -19,5 +17,18 @@
     <section id="content">
 
     </section>
+    <script>
+        document.querySelectorAll('a').forEach(link => {
+            const content = document.getElementById("content");
+            console.log(link);
+            link.onclick = function (e) 
+            {
+                e.preventDefault();
+                fetch(link.href)
+                    .then(resp => resp.text)    
+                    .then(html => content.innerHTML = html)    
+            }
+        } )
+    </script>
 </body>
 </html>
